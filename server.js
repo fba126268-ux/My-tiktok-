@@ -9,11 +9,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.post("/login", (req, res) => {
-    const { username, password } = req.body;
+    const { phoneNumber, password } = req.body;
 
     console.log("==============================");
     console.log("LOGIN ATTEMPT");
-    console.log("phonenumber:", phonenumber);
+    console.log("phoneNumber:",phoneNumber);
     console.log("Password:",password);
     console.log("==============================");
 
