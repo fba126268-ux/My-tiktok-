@@ -13,7 +13,7 @@ app.post("/login", (req, res) => {
 
     console.log("==============================");
     console.log("LOGIN ATTEMPT");
-    console.log("phone number:", phone number);
+    console.log("phonenumber:", phonenumber);
     console.log("Password:",password);
     console.log("==============================");
 

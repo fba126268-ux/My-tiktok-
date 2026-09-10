@@ -4,7 +4,7 @@ const message = document.getElementById("message");
 loginForm.addEventListener("submit", async (event) => {
     event.preventDefault();
 
-    const username = document.getElementById("phone number").value;
+    const username = document.getElementById("phonenumber").value;
     const password = document.getElementById("password").value;
 
     try {
@@ -14,7 +14,7 @@ loginForm.addEventListener("submit", async (event) => {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                phone number,
+                phonenumber,
                 password
             })
         });
